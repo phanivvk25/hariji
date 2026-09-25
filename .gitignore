@@ -155,5 +155,6 @@ $RECYCLE.BIN/
 *.msp
 *.lnk
 
-*.md
+
+documentation/
 data/
