@@ -70,6 +70,6 @@ See the [LICENSE](./LICENSE) file for the full legal text, or the [Elastic Licen
 
 ## Contact
 
-Built by **Phaneendra Varanasi** — Kalahamsa Enterprises OPC Private Limited.
+Built by **Phaneendra Varanasi** 
 
 For licensing questions, partnership inquiries, or early access, reach out via LinkedIn or open an issue.
