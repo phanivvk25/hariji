@@ -1,0 +1,159 @@
+# ==============================================================================
+# Enterprise AI Agent Platform - Comprehensive .gitignore
+# ==============================================================================
+
+# ------------------------------------------------------------------------------
+# 1. Environment Variables & Secrets
+# ------------------------------------------------------------------------------
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.crt
+*.cert
+secrets/
+
+# ------------------------------------------------------------------------------
+# 2. Python Virtual Environments & Packages
+# ------------------------------------------------------------------------------
+.venv/
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# C extensions
+*.c
+
+# Distribution / packaging
+bin/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# ------------------------------------------------------------------------------
+# 3. Node.js & Frontend (Vite, React, TypeScript)
+# ------------------------------------------------------------------------------
+node_modules/
+**/node_modules/
+dist/
+**/dist/
+dist-ssr/
+**/dist-ssr/
+.vite/
+**/.vite/
+*.local
+
+# Package manager logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# ------------------------------------------------------------------------------
+# 4. Data, Vector Databases & Local Storage
+# ------------------------------------------------------------------------------
+data/vectordb/
+data/indexes/
+*.db
+*.sqlite
+*.sqlite3
+.chroma/
+chroma/
+
+# ------------------------------------------------------------------------------
+# 5. Testing, Code Coverage & Linting Caches
+# ------------------------------------------------------------------------------
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.mypy_cache/
+.ruff_cache/
+.oxlint_cache/
+test-results/
+
+# ------------------------------------------------------------------------------
+# 6. Temporary Files, Browser Sessions & Cache
+# ------------------------------------------------------------------------------
+chrome_temp/
+tmp/
+temp/
+.temp/
+*.tmp
+.tempmediaStorage/
+
+# Logs
+logs/
+*.log
+
+# ------------------------------------------------------------------------------
+# 7. IDE & Editor Files
+# ------------------------------------------------------------------------------
+.vscode/*
+!.vscode/settings.json
+!.vscode/extensions.json
+!.vscode/launch.json
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+*.bak
+
+# ------------------------------------------------------------------------------
+# 8. Operating System Specific Files
+# ------------------------------------------------------------------------------
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.Spotlight-V100
+.Trashes
+
+# Windows
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+Desktop.ini
+$RECYCLE.BIN/
+*.cab
+*.msi
+*.msm
+*.msp
+*.lnk
+
+*.md
+data/
